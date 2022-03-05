@@ -1,3 +1,19 @@
+/*
+There must be no space before comma and full stop
+There must be space after full stop and comma
+The alphabet after full stop must be in upper case
+The alphabet after comma must be in lower case
+
+Input:
+Hi,hello everyone. this is beautiful!
+Output:
+INVALID
+
+Input:
+Hi, hello everyone. This is beautiful!
+Output: 
+Valid
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
